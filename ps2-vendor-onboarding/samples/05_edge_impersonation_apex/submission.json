@@ -1,0 +1,39 @@
+{
+  "legal_name": "Apex Industrial Supplies LLC",
+  "dba": "Apex Industrial",
+  "entity_type": "LLC",
+  "country": "US",
+  "tax_id": "47-1829304",
+  "address": {
+    "line1": "4410 Harbor Way",
+    "city": "Oakland",
+    "region": "CA",
+    "postal_code": "94607",
+    "country": "US"
+  },
+  "website": "apexindustrial-supplies.example",
+  "contact": {
+    "name": "Dana Whitfield",
+    "title": "AR Manager",
+    "email": "ar@apexindustrial-supplies.example",
+    "phone": "+1 (510) 555-0199"
+  },
+  "category": "goods",
+  "description": "MRO supplies - updated supplier profile after bank migration",
+  "expected_annual_spend": 240000,
+  "currency": "USD",
+  "requested_by": "Self-registration (supplier portal)",
+  "bank": {
+    "account_holder": "Apex Industrial Supplies LLC",
+    "bank_name": "Golden Gate Digital Bank",
+    "country": "US",
+    "account_number": "8812004471",
+    "routing_number": "121142915",
+    "iban": null,
+    "swift": null
+  },
+  "attestations": {
+    "info_accurate": true,
+    "no_conflict_of_interest": true
+  }
+}

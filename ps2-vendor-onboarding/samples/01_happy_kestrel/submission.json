@@ -1,0 +1,39 @@
+{
+  "legal_name": "Kestrel Freight Partners LLC",
+  "dba": "Kestrel Freight",
+  "entity_type": "LLC",
+  "country": "US",
+  "tax_id": "84-3920175",
+  "address": {
+    "line1": "2875 Rickenbacker Pkwy",
+    "city": "Columbus",
+    "region": "OH",
+    "postal_code": "43217",
+    "country": "US"
+  },
+  "website": "kestrelfreight.example",
+  "contact": {
+    "name": "Maya Okafor",
+    "title": "Controller",
+    "email": "ap@kestrelfreight.example",
+    "phone": "+1 (614) 555-0136"
+  },
+  "category": "services_onsite",
+  "description": "Yard and dock logistics at the Columbus plant",
+  "expected_annual_spend": 180000,
+  "currency": "USD",
+  "requested_by": "Jordan Lee - Plant logistics",
+  "bank": {
+    "account_holder": "Kestrel Freight Partners LLC",
+    "bank_name": "First Buckeye Bank",
+    "country": "US",
+    "account_number": "7300418826",
+    "routing_number": "044200015",
+    "iban": null,
+    "swift": null
+  },
+  "attestations": {
+    "info_accurate": true,
+    "no_conflict_of_interest": true
+  }
+}

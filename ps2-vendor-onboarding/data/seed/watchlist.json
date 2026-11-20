@@ -1,0 +1,10 @@
+[
+  {"entry_id": "WL-0147", "name": "Corvane Maritime Logistics FZCO", "aliases": ["Corvane Maritime", "CML FZCO"], "country": "AE",
+   "list": "Demo consolidated sanctions list", "program": "Maritime sanctions evasion", "listed": "2025-07-14"},
+  {"entry_id": "WL-0203", "name": "Volsk Heavy Industries Holding", "aliases": ["VHI Holding"], "country": "XX",
+   "list": "Demo consolidated sanctions list", "program": "Export-control violations", "listed": "2024-03-02"},
+  {"entry_id": "WL-0318", "name": "Black Tern Shipping Ltd", "aliases": ["Black Tern Maritime"], "country": "XX",
+   "list": "Demo consolidated sanctions list", "program": "Dual-use goods diversion", "listed": "2026-01-19"},
+  {"entry_id": "WL-0422", "name": "Orlan Precision Components", "aliases": [], "country": "XX",
+   "list": "Demo denied-parties list", "program": "Export-control violations", "listed": "2023-11-08"}
+]

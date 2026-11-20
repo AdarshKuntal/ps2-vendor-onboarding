@@ -1,0 +1,85 @@
+[
+  {
+    "id": "01_happy_kestrel",
+    "tag": "happy",
+    "title": "Happy path - Kestrel Freight Partners",
+    "description": "Clean US carrier for on-site yard logistics. W-9, bank letter, insurance certificate. The bank letter writes the name as 'KESTREL FREIGHT PARTNERS, L.L.C.' and the insurer uses the DBA - names never match character for character.",
+    "expected": "APPROVED - vendor record created",
+    "files": [
+      "01_happy_kestrel/W9_Kestrel_Freight_2026.pdf",
+      "01_happy_kestrel/Bank_confirmation_Kestrel.pdf",
+      "01_happy_kestrel/COI_Kestrel_2026-27.pdf"
+    ]
+  },
+  {
+    "id": "02_edge_third_party_bank_harborview",
+    "tag": "edge",
+    "title": "Edge 1 - Bank account held by a factoring company",
+    "description": "Harborview Packaging's documents are all genuine, but its bank letter is for an account held by Meridian Receivables Finance LLC. Could be receivables factoring (legitimate) or payment diversion (fraud) - either way it can't be auto-approved.",
+    "expected": "PENDING - vendor asked for own-name account or Notice of Assignment; Treasury notified",
+    "files": [
+      "02_edge_third_party_bank_harborview/Harborview_W-9.pdf",
+      "02_edge_third_party_bank_harborview/Harborview_bank_letter.pdf"
+    ]
+  },
+  {
+    "id": "03_edge_resubmission_harborview",
+    "tag": "edge",
+    "title": "Edge 1b - Harborview resubmits",
+    "description": "The vendor's reply to the email from Edge 1: the same registration with a new bank letter for an account in its own name. Linked to the open case automatically; shows which earlier issues are now resolved.",
+    "expected": "APPROVED - 'resolved since previous submission'",
+    "after": "02_edge_third_party_bank_harborview",
+    "files": [
+      "03_edge_resubmission_harborview/Harborview_W-9.pdf",
+      "03_edge_resubmission_harborview/Harborview_bank_letter_own_account.pdf"
+    ]
+  },
+  {
+    "id": "04_edge_foreign_wrong_form_rheinwerk",
+    "tag": "edge",
+    "title": "Edge 2 - German supplier: wrong tax form, malformed VAT ID",
+    "description": "Rheinwerk Präzisionsteile GmbH entered an 8-digit USt-IdNr. (Germany needs DE + 9 digits) and attached a US Form W-9 instead of a W-8BEN-E. Its Handelsregister extract shows the correct VAT ID. IBAN and SWIFT are valid.",
+    "expected": "PENDING - vendor asked for W-8BEN-E and to confirm the suggested VAT ID",
+    "files": [
+      "04_edge_foreign_wrong_form_rheinwerk/W9_Rheinwerk.pdf",
+      "04_edge_foreign_wrong_form_rheinwerk/Bankbestaetigung_Rheinwerk.pdf",
+      "04_edge_foreign_wrong_form_rheinwerk/HRB_734211_Auszug.pdf"
+    ]
+  },
+  {
+    "id": "05_edge_impersonation_apex",
+    "tag": "edge",
+    "title": "Edge 3 - 'Apex Industrial' registers again",
+    "description": "Every document is internally perfect - W-9, bank letter, matching names. But the EIN already belongs to active vendor V-1001, the bank account is new and the email domain is a look-alike. Vendor impersonation through the onboarding back door.",
+    "expected": "REJECTED - Security; no reply to the submitter",
+    "files": [
+      "05_edge_impersonation_apex/Apex_W9_2026.pdf",
+      "05_edge_impersonation_apex/Apex_bank_verification.pdf"
+    ]
+  },
+  {
+    "id": "06_edge_watchlist_corvane",
+    "tag": "edge",
+    "title": "Edge 4 - Potential watchlist match",
+    "description": "Corvane Marine Logistics FZE (UAE) submits a complete, consistent pack - W-8BEN-E, bank letter, trade licence. Screening finds a 92 % match to a listed entity, 'Corvane Maritime Logistics FZCO'. Most fuzzy hits are false positives, but none is auto-cleared.",
+    "expected": "PENDING - Compliance; neutral 'under review' email (no tipping-off)",
+    "files": [
+      "06_edge_watchlist_corvane/W-8BEN-E_Corvane.pdf",
+      "06_edge_watchlist_corvane/Corvane_bank_letter.pdf",
+      "06_edge_watchlist_corvane/Corvane_trade_licence.pdf"
+    ]
+  },
+  {
+    "id": "07_bonus_messy_bluegill",
+    "tag": "bonus",
+    "title": "Bonus - The everyday messy submission",
+    "description": "Bluegill Facility Services (on-site janitorial): an invoice attached where the bank letter should be, a scanned insurance certificate that is expired and under-insured, an unsigned W-9, 'Inc.' on the form but 'LLC' on the W-9, a Gmail address, no phone.",
+    "expected": "PENDING - one email to the vendor listing every item",
+    "expected_no_ai": "PENDING - scanned certificate routed to manual keying (no AI engine)",
+    "files": [
+      "07_bonus_messy_bluegill/bluegill w9.pdf",
+      "07_bonus_messy_bluegill/bank info.pdf",
+      "07_bonus_messy_bluegill/insurance_scan.pdf"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "legal_name": "Bluegill Facility Services Inc.",
+  "dba": null,
+  "entity_type": "Corporation",
+  "country": "US",
+  "tax_id": "61-2297734",
+  "address": {
+    "line1": "410 W Chestnut St",
+    "city": "Louisville",
+    "region": "KY",
+    "postal_code": "40202",
+    "country": "US"
+  },
+  "website": "bluegillfacility.example",
+  "contact": {
+    "name": "Tanya Morris",
+    "title": "Owner",
+    "email": "bluegillfacility@gmail.com",
+    "phone": null
+  },
+  "category": "services_onsite",
+  "description": "Nightly janitorial service, Louisville warehouse",
+  "expected_annual_spend": 95000,
+  "currency": "USD",
+  "requested_by": "Sam Ortiz - Facilities",
+  "bank": {
+    "account_holder": "Bluegill Facility Services",
+    "bank_name": "Bluegrass Community Bank",
+    "country": "US",
+    "account_number": "4471902218",
+    "routing_number": "083900512",
+    "iban": null,
+    "swift": null
+  },
+  "attestations": {
+    "info_accurate": true,
+    "no_conflict_of_interest": true
+  }
+}

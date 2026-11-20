@@ -1,0 +1,16 @@
+[
+  {"country": "US", "ids": ["84-3920175"], "name": "Kestrel Freight Partners LLC", "status": "active", "incorporated": "2017-03-14",
+   "jurisdiction": "Ohio Secretary of State", "registered_address": "2875 Rickenbacker Pkwy, Columbus, OH 43217"},
+  {"country": "US", "ids": ["36-4418203"], "name": "Harborview Packaging Inc.", "status": "active", "incorporated": "2011-09-02",
+   "jurisdiction": "Pennsylvania Department of State", "registered_address": "1500 S Columbus Blvd, Philadelphia, PA 19147"},
+  {"country": "US", "ids": ["47-1829304"], "name": "Apex Industrial Supplies LLC", "status": "active", "incorporated": "2014-05-19",
+   "jurisdiction": "California Secretary of State", "registered_address": "4410 Harbor Way, Oakland, CA 94607"},
+  {"country": "US", "ids": ["61-2297734"], "name": "Bluegill Facility Services LLC", "status": "active", "incorporated": "2024-05-20",
+   "jurisdiction": "Kentucky Secretary of State", "registered_address": "410 W Chestnut St, Louisville, KY 40202"},
+  {"country": "US", "ids": ["29-6604118"], "name": "Brightwater Industrial Cleaning Inc.", "status": "dissolved", "incorporated": "2009-02-11",
+   "dissolved": "2025-12-31", "jurisdiction": "Ohio Secretary of State", "registered_address": "88 E Broad St, Columbus, OH 43215"},
+  {"country": "DE", "ids": ["DE812345673", "HRB 734211"], "name": "Rheinwerk Präzisionsteile GmbH", "status": "active", "incorporated": "2008-10-01",
+   "jurisdiction": "Amtsgericht Stuttgart (Handelsregister B)", "registered_address": "Industriestraße 14, 70565 Stuttgart"},
+  {"country": "AE", "ids": ["100234567800003", "DMCC-187234"], "name": "Corvane Marine Logistics FZE", "status": "active", "incorporated": "2019-02-27",
+   "jurisdiction": "Dubai free-zone authority (commercial licence)", "registered_address": "Unit 1904, Marina Plaza, Dubai"}
+]

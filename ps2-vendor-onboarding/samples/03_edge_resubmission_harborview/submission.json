@@ -1,0 +1,39 @@
+{
+  "legal_name": "Harborview Packaging Inc.",
+  "dba": null,
+  "entity_type": "Corporation",
+  "country": "US",
+  "tax_id": "36-4418203",
+  "address": {
+    "line1": "1500 S Columbus Blvd",
+    "city": "Philadelphia",
+    "region": "PA",
+    "postal_code": "19147",
+    "country": "US"
+  },
+  "website": "harborviewpack.example",
+  "contact": {
+    "name": "Elena Brooks",
+    "title": "Credit Manager",
+    "email": "credit@harborviewpack.example",
+    "phone": "+1 (215) 555-0172"
+  },
+  "category": "goods",
+  "description": "Corrugated shipping cartons",
+  "expected_annual_spend": 320000,
+  "currency": "USD",
+  "requested_by": "Priya Nair - Procurement",
+  "bank": {
+    "account_holder": "Harborview Packaging Inc.",
+    "bank_name": "Keystone Commerce Bank",
+    "country": "US",
+    "account_number": "5502730419",
+    "routing_number": "031900247",
+    "iban": null,
+    "swift": null
+  },
+  "attestations": {
+    "info_accurate": true,
+    "no_conflict_of_interest": true
+  }
+}

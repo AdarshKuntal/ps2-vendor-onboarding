@@ -1,0 +1,39 @@
+{
+  "legal_name": "Rheinwerk Präzisionsteile GmbH",
+  "dba": null,
+  "entity_type": "GmbH",
+  "country": "DE",
+  "tax_id": "DE 81234567",
+  "address": {
+    "line1": "Industriestraße 14",
+    "city": "Stuttgart",
+    "region": "Baden-Württemberg",
+    "postal_code": "70565",
+    "country": "DE"
+  },
+  "website": "rheinwerk-praezision.example",
+  "contact": {
+    "name": "Jonas Albrecht",
+    "title": "Geschäftsführer",
+    "email": "j.albrecht@rheinwerk-praezision.example",
+    "phone": "+49 711 555 0190"
+  },
+  "category": "goods",
+  "description": "CNC-machined precision spindle components",
+  "expected_annual_spend": 600000,
+  "currency": "EUR",
+  "requested_by": "Marco Diaz - Engineering procurement",
+  "bank": {
+    "account_holder": "Rheinwerk Präzisionsteile GmbH",
+    "bank_name": "Neckar Handelsbank AG",
+    "country": "DE",
+    "account_number": null,
+    "routing_number": null,
+    "iban": "DE06 6005 0101 0004 4273 19",
+    "swift": "NHBKDESSXXX"
+  },
+  "attestations": {
+    "info_accurate": true,
+    "no_conflict_of_interest": true
+  }
+}

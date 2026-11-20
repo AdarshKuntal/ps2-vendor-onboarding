@@ -1,0 +1,12 @@
+# Render Blueprint for the PS-2 service. Render reads render.yaml from the repo root, so either
+# point a Blueprint at this file's path, or create a Web Service -> Docker with Root Directory
+# "ps2-vendor-onboarding" (same settings as below).
+services:
+  - type: web
+    name: vendor-onboarding-agent
+    runtime: docker
+    rootDir: ps2-vendor-onboarding
+    plan: free
+    healthCheckPath: /api/health
+    # Optional: add ANTHROPIC_API_KEY under Environment to enable Claude document reading
+    # (incl. the scanned insurance certificate). Without it the rule-based parser is used.

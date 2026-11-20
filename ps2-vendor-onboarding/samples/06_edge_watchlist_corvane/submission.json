@@ -1,0 +1,39 @@
+{
+  "legal_name": "Corvane Marine Logistics FZE",
+  "dba": null,
+  "entity_type": "FZE",
+  "country": "AE",
+  "tax_id": "100234567800003",
+  "address": {
+    "line1": "Unit 1904, Marina Plaza",
+    "city": "Dubai",
+    "region": null,
+    "postal_code": "00000",
+    "country": "AE"
+  },
+  "website": "corvane-marine.example",
+  "contact": {
+    "name": "Farid Haddad",
+    "title": "Commercial Director",
+    "email": "farid.haddad@corvane-marine.example",
+    "phone": "+971 4 555 0147"
+  },
+  "category": "services_remote",
+  "description": "Ocean freight forwarding for Gulf export lanes",
+  "expected_annual_spend": 450000,
+  "currency": "USD",
+  "requested_by": "Jordan Lee - Plant logistics",
+  "bank": {
+    "account_holder": "Corvane Marine Logistics FZE",
+    "bank_name": "Gulf Meridian Bank PJSC",
+    "country": "AE",
+    "account_number": null,
+    "routing_number": null,
+    "iban": "AE07 0331 2345 6789 0123 456",
+    "swift": "GMBKAEADXXX"
+  },
+  "attestations": {
+    "info_accurate": true,
+    "no_conflict_of_interest": true
+  }
+}
